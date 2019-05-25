@@ -5,7 +5,7 @@ Test of milsymbol library to create custom Renderer for features that have a fie
 ## Usage
 
 ```bash
-npm init
+npm i
 npm run start
 ```
 
