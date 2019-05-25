@@ -1,0 +1,31 @@
+{
+  "name": "milsymbol-renderer",
+  "version": "1.0.0",
+  "description": "Test of using spatialillusions milsymbol renderer",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "milsymbol",
+    "renderer"
+  ],
+  "author": "p. cruz <pcruz@esri.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "@types/arcgis-js-api": "^4.11.0",
+    "dojo-typings": "^1.11.9",
+    "milsymbol": "^2.0.0"
+  }
+}
